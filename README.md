@@ -31,6 +31,7 @@ Where:
 	-output.txt – file name of file to write output statistics
 
 The output file should have the following format: (an example text file is on Mycourses too with comments, which should not be output by your program)
+
 x,y; x,y; x,y; x,y; x,y;
 
 x,y; x,y; x,y; x,y;
