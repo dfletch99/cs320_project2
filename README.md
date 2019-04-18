@@ -32,12 +32,19 @@ Where:
 
 The output file should have the following format: (an example text file is on Mycourses too with comments, which should not be output by your program)
 x,y; x,y; x,y; x,y; x,y;
+
 x,y; x,y; x,y; x,y;
+
 x,y;
+
 x,y;
+
 x,y; x,y; x,y; x,y;
+
 x,y; x,y; x,y; x,y;
+
 x,y; x,y; x,y; x,y;
+
 Where each x,y; pair corresponds to the number of cache hits (x) and the total number of accesses (y) of one of the cache configurations. The first line provides the results for the direct mapped caches, second line for set associative, the third line for the fully associative cache with LRU replacement, the fourth line for the fully associative cache with hot-cold replacement, the fifth for the associative caches without store allocation, the sixth line for associative caches with next line prefetching and the seventh line for associative caches with next line prefetching only for cache misses. The numbers within each line should be separated by a single space.
 Submissions will be checked using a script that will compare your output file to the correct output file using the UNIX `diff` tool, so if your output does not EXACTLY match the correct output the grading program will mark it as wrong. I will have to check such submissions by hand which will result in at least a few points being deducted. 
 
