@@ -11,7 +11,9 @@ int main(int argc, char ** argv){
 	Cache c(argv[1], argv[2]);
 	c.directMapped();
 	c.setAssociative();
-
-
+	c.fullyAssociative();
+	c.noAlloc();
+	c.prefetch();
+	c.prefetchOnMiss();
 	return 0;
 }
